@@ -89,6 +89,12 @@ body {
   font-size: 20px;
 }
 
+.instruct {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 .instruct li {
   margin: 15px;
   font-size: 15px;
