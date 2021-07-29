@@ -78,39 +78,6 @@ body {
   font-size: 40px;
 }
 
-body div {
-  font-family: intro;
-}
-
-body h1 {
-  font-style: italic;
-  color: blueviolet;
-}
-
-h1 {
-  color: rgba(25, 128, 197, 0.39);
-  font-size: 20px;
-  font-weight: 700;
-}
-
-p {
-  color: blue;
-}
-
-.logo1 {
-  margin: 0 auto;
-  width: 200px;
-}
-
-.lole {
-  color: black;
-}
-
-.day {
-  color: darkgreen;
-  font-size: 26px;
-}
-
-.zhelt {
-  color: yellow;
+.manual h1 {
+  text-align: center;
 }
