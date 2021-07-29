@@ -89,10 +89,6 @@ body {
 }
 
 .instruct {
-  margin: 0 auto;
-}
-
-.instruct ul li {
   margin: 15px;
   font-size: 15px;
 }
