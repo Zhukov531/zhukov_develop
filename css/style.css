@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 /*Обнуление*/
 * {
   padding: 0;
@@ -77,6 +78,7 @@ body {
   margin: 0;
   background: #202020;
   color: white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .manual {
@@ -85,7 +87,8 @@ body {
 
 .manual h1 {
   text-align: center;
-  font-family: montserrat;
+  font-weight: 700;
+  font-style: italic;
   font-size: 20px;
 }
 
