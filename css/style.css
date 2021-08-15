@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
       justify-content: space-around;
 }
 
-.footer {
+.footer1 {
   height: 70px;
   background-color: #444444;
   display: -webkit-box;
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center;
 }
 
-.footer__text {
+.footer__text1 {
   color: white;
   font-family: 'Style Script', cursive;
   text-transform: uppercase;
@@ -241,6 +241,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .vertical {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0 0 30px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .vertical__titleblock {
@@ -253,6 +256,74 @@ h1, h2, h3, h4, h5, h6 {
   color: #4a5260;
 }
 
+.vertical__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .vertical__block1 {
+  min-width: 250px;
   max-width: 300px;
+  min-height: 400px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  background-color: #4a5260;
+  border: solid 4px #4a5260;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.vert__block__title {
+  color: white;
+  font-size: 24px;
+  margin: 18px 0 12px 0;
+}
+
+.block__bgr {
+  min-height: 50px;
+  max-height: 70px;
+  color: grey;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+}
+
+.block__text__cont {
+  max-width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: left;
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 20px;
+}
+
+.block__btn {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 260px;
+  height: 40px;
+  background-color: white;
+  font-size: 18px;
 }

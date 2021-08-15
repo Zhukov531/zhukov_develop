@@ -116,14 +116,14 @@
     justify-content: space-around;
 }
 
-.footer{
+.footer1{
     height: 70px;
     background-color: #444444;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.footer__text{
+.footer__text1{
     color: white;
     font-family: 'Style Script', cursive;
     text-transform: uppercase;
@@ -133,6 +133,8 @@
 //Весь блок
 .vertical {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 30px 0;
+    flex-wrap: wrap;
 }
 //весь контент
 .vertical__content {
@@ -149,14 +151,57 @@
 }
 //блок блоков
 .vertical__blocks {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
 }
 //сам блок
 .vertical__block1 {
+    min-width: 250px;
     max-width: 300px;
+    min-height: 400px;
+    flex: 1 0 auto;
+    background-color: #4a5260;
+    border: solid 4px #4a5260;
+    flex-wrap: wrap;
+} 
+//Заголовок
+.vert__block__title{
+    color: white;
+    font-size: 24px;
+    margin: 18px 0 12px 0;
+}
+//с белым фоном фигня
+.block__bgr{
+    min-height: 50px;
+    max-height: 70px;
+    color: grey;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0 0 20px 0;
 }
 //текст блока
-.block__text {
+.block__text__cont {
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    justify-content: center;
+    margin: 0 20px;
+    
 }
 //кнопка блока
-.block__btn {
+.block__btn{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    font-size: 18px;
 }
