@@ -94,7 +94,6 @@
     display: flex;
     margin-bottom: 30px;
     width: 40%;
-    
 }
 //Заголовок и текст
 .block__text{
@@ -135,6 +134,7 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 0 0 30px 0;
     flex-wrap: wrap;
+    
 }
 //весь контент
 .vertical__content {
@@ -157,6 +157,7 @@
 }
 //сам блок
 .vertical__block1 {
+    display: flex;
     min-width: 250px;
     max-width: 300px;
     min-height: 400px;
@@ -164,6 +165,9 @@
     background-color: #4a5260;
     border: solid 4px #4a5260;
     flex-wrap: wrap;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content:start;
 } 
 //Заголовок
 .vert__block__title{
@@ -175,7 +179,7 @@
 .block__bgr{
     min-height: 50px;
     max-height: 70px;
-    color: grey;
+    color: #4a5260;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -195,7 +199,8 @@
     line-height: 24px;
     justify-content: center;
     margin: 0 20px;
-    
+    margin-bottom: 20px;
+    flex-grow: 1;
 }
 //кнопка блока
 .block__btn{
@@ -204,4 +209,11 @@
     height: 40px;
     background-color: white;
     font-size: 18px;
+    border-radius: 10px;
+}
+//Блок кнопки
+.btn__class{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
